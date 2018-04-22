@@ -51,7 +51,7 @@ public class MinimumStick {
 
         for (int gap = 2; gap <= endpoints.length - 1; gap++)
         {
-        	//System.out.println(Arrays.deepToString(opt));
+        	System.out.println(Arrays.deepToString(opt));
             for (int i = 0; i + gap < endpoints.length; i++)
             {
                 int j = i + gap;
